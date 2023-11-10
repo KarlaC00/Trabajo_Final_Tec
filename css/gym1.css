@@ -1,0 +1,182 @@
+/* menu GYM*/ 
+
+body{
+    background-image: url(./imagenes_pa/fondo4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat ;
+    background-size: 1300px;
+    margin: 0;
+}
+
+#principal{
+    background-image: url(./imagenes_pa/fondogim.jpg);
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url(./imagenes_pa/hierro3.webp);
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo{
+    display: flex;
+    position: relative;
+    left: 20px;
+    z-index: 10;
+}
+
+.logo img{
+    display: flex;
+    height: 70px;
+}
+ 
+.logo h1{
+    display: flex;
+    position: relative;
+    color: white;
+}
+
+.navv{
+    display: flex;
+    position: relative;
+    right: 310px;
+}
+.tabla{
+    background-color: #61677a65;
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    width: 1180px;
+    margin-bottom: 20px;
+}
+
+.tabla h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.tabla img {
+    display: flex;
+    height: 180px;
+}
+
+.tabla a {
+    text-decoration: none;
+}
+
+h2{
+    color: black;
+    text-decoration: none;   
+}
+
+.rutinas {
+    text-transform: uppercase;
+}
+.contenedor{
+    text-align: justify;
+    color: white;
+}
+
+section h2{
+    color: white;
+}
+
+section p{
+    text-align: left;
+    width: 800px;
+}
+.footer{
+    background-color: black;
+    bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 115px;
+}
+
+.footerf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes:hover {
+    transform: scale(1.3);
+    transition: all 300ms ease;
+}
+
+/*suplementos*/ 
+
+.infopro h2{
+    color: white;
+}
+
+.infopro p{
+    color: white;
+    width: 300;
+}
+
+.infopro h1{
+    color: white;
+}
+
+.imagen{
+    margin-right: 10px;
+}
+/* boton suplementos*/ 
+
+.tablasu img:hover {
+    transform: scale(1.3);
+    transition: all 300ms ease;
+}
+
+.tablasu {
+    background-color: #f8f0e565;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #29e925,
+        rgb(217, 255, 0),
+        #ff5100
+    );
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    width: 200px;
+    position: relative;
+    left: 530px;
+    margin-bottom: 20px;
+}
+
+button span{
+    background-color: black;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+    width: 200px;
+}
+
+button:hover span{
+    background: none;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+
+
