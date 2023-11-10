@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/index.css">
+  <script src="../js/calculadora.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Dekko&family=Dosis:wght@200&family=Edu+NSW+ACT+Foundation:wght@400;500&family=Exo:ital,wght@1,100;1,200&family=Patrick+Hand&family=Pixelify+Sans&family=Red+Hat+Display:wght@300&family=Source+Sans+3:wght@200;300&display=swap" rel="stylesheet">
   <title>GimnasioNMV</title>
 </head>
@@ -29,7 +30,7 @@
 
     <section class="azul">
       <div>
-        <span class="texto">Las excusas queman 0 calorías por hora</span>
+        <span class="texto">LAS EXCUSAS QUEMAN 0 CALORÍAS POR HORA.</span>
       </div>
     </section>
 
@@ -78,14 +79,88 @@
               </div>
             </div>
         </div>
+
+        <div class="sercicio">
+          <div class="cuadroservicio">
+            <img src="../multimedia/img/img1.jpg" alt="Imagen">
+            <div class="text">
+                <p>Programas de bienestar y salud menta</p>
+            </div>
+          </div>
+            <div class="cuadroservicio">
+              <img src="../multimedia/img/img1.jpg" alt="Imagen">
+              <div class="text">
+                  <p>Tu texto aquí. Puede ser tan largo como desees y se adaptará al ancho de la imagen.aaaaaaaaaaaaaaaaa</p>
+              </div>
+            </div>
+          </div>
       </div>
     </section>
 
-    <section class="section1">
-      <div class="contenido1">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/UGf_MK4VRJ8?si=Efcmdp4X2q1nntor" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <section class="section3">
+      <div class="contenido3">
+        <iframe width="760" height="415" src="https://www.youtube.com/embed/UGf_MK4VRJ8?si=Efcmdp4X2q1nntor" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </section>
+
+    <section class="section4">
+      <div class="contenido4">
+        <span>LA MOTIVACIÓN ES LO QUE TE INICIA. EL HÁBITO ES LO QUE TE MANTIENE.</span>
+      </div>
+    </section>
+
+    <section class="section5">
+      <div class="contenido5">
+        <span class="tituloform">Calculadora de IMC</span><br><br>
+          <form id="imcForm">
+            <label for="peso">Peso (kg):</label>
+              <input type="number" id="peso" required><br><br>
+            <label for="altura">Altura (m):</label>
+              <input type="number" id="altura" required><br><br>
+                <button type="button" onclick="calcularIMC()" class="buttonform">Calcular IMC</button>
+          </form>
+             <span>Su IMC es: <span id="resultadoIMC"></span></span>
+      </div>
+
+      <div class="contenido52">
+        <table>
+          <tr>
+            <th>Índice de Masa Corporal (IMC)</th>
+            <th>Clasificación</th>
+          </tr>
+          <tr>
+            <td>Menos de 18,5</td>
+            <td>Bajo peso</td>
+          </tr>
+          <tr>
+            <td>18,5 - 24,9</td>
+            <td>Saludable</td>
+          </tr>
+          <tr>
+            <td>25,0 - 29,9</td>
+            <td>Exceso de peso</td>
+          </tr>
+          <tr>
+            <td>30,0 y superior</td>
+            <td>Obeso</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section class="section2">
+      <div class="contenido2">
+        <span>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</span>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
 
 
 
@@ -101,19 +176,23 @@
     <footer>
       <div class="footer">
         <div class="row">
-              <div class="footerf">
-                <img src="../imagenes_pa/mancuerdapng.webp" id="icono">
-                <center><h4>GimnasioNMV</h4></center>
+              <div class="footerlogo">
+                <img src="../multimedia/sgv/pesas.svg" id="icono" >
+                <center>GimnasioNMV</center>
               </div>
-              <div class="footerf">
-                <h3>contacto</h3>
+              <div class="footerred">
                         <ul>
-                            <h4>Telefono: </h4>
-                            <li>+57 3212783806</li>
-                            <h4>Correo personal: </h4>
-                            <li>maanuelva10@gmail.com</li>
-                            <h4>Correo institucional: </h4>
-                            <li>u20221204989@gmail.com</li>
+                            <h4>NUESTROS SERVICIOS</h4>
+                            <li><a href="">Servicio1</a></li>
+                            <li><a href="">Servicio1</a></li>
+                            <li><a href="">Servicio1</a></li>
+                        </ul>
+              </div>
+              <div class="footerred">
+                        <ul>
+                            <h4>INFORMACIÓN</h4>
+                            <li><a href="">Sobre nosotros</a></li>
+                            <li><a href="">Valores de la empresa</a></li>
                         </ul>
               </div>
               <div class="footerf">
@@ -126,10 +205,10 @@
         </div>
         <hr>
         <div class="barra-footer">
-          Copyright © 2020 Gymso Fitness Co.
+          Copyright ©2020 Gymso Fitness Co.
           Design: Tooplate
           <br>
-          &copy,Derechos de autor-2023
+          &copyDerechos de autor-2023
         </div>
       </div>
     </footer>
