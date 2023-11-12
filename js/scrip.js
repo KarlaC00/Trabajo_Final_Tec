@@ -11,3 +11,5 @@ function calcularIMC() {
     
     document.getElementById("resultadoIMC").textContent = imc.toFixed(2);
   }
+
+
