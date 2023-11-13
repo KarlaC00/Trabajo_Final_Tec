@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="shorcut - icon" href="./imagenes_pa/icono.ico">
+  <link rel="shorcut - icon" href="../multimedia/imagenes_pa/icono.ico">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/index.css">
-  <script src="../js/calculadora.js"></script>
+  <script src="../js/scrip.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Dekko&family=Dosis:wght@200&family=Edu+NSW+ACT+Foundation:wght@400;500&family=Exo:ital,wght@1,100;1,200&family=Patrick+Hand&family=Pixelify+Sans&family=Red+Hat+Display:wght@300&family=Source+Sans+3:wght@200;300&display=swap" rel="stylesheet">
   <title>GimnasioNMV</title>
 </head>
 <body>
+  <header>
     <div class="menu">
         <div class="logo"><img src="../multimedia/sgv/pesas.svg" width="30px"> GimnasioNMV</div>
         <div class="menu-buttons">
           <a href="./index.html"><button>HOME</button></a>
-          <a href="pagina_de_suplementos.html"><button>SUPLEMENTOS</button></a>
+          <a href="./tienda.html"><button>TIENDA</button></a>
           <a href="pagina_de_clases.html"><button>CLASES</button></a>
           <a href="pagina_sobre_nosotros.html"><button>SOBRE NOSOTROS</button></a>
-          <a href="pagina_de_contacto.html"><button>CONTACTENOS</button></a>
+          <a href="../html/contactos.html"><button>CONTACTENOS</button></a>
           
         </div>
     </div>
+  </header>
+
+  <main>
     <div class="content">
       <div class="parrafo">
         <span>TRANSFORMA TU <br> CUERPO </span>
@@ -99,14 +103,58 @@
 
     <section class="section3">
       <div class="contenido3">
-        <iframe width="760" height="415" src="https://www.youtube.com/embed/UGf_MK4VRJ8?si=Efcmdp4X2q1nntor" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="plan"><span>ENCUENTRA UN PLAN PERFECTO</span></div>
+      <div class="tarjetas">
+        <div class="tarjeta" id="tarjeta2">
+          <div class="contenidotarjeta">
+            <div class="arriba">PLAN BÁSICO</div>
+            <hr>
+            <div class="precio"><span>$50.000 COP</span></div>
+            <div class="lista">
+              <ul>
+                <li>aa</li>
+                <li>aaa</li>
+                <li>aaa</li>
+                <li>aaa</li>
+              </ul>
+            </div>
+            <div class="botontarjeta"><button type="button" class="botontarjetaestilo">Comprar ya</button></div>
+        </div>
       </div>
-    </section>
-
-    <section class="section4">
-      <div class="contenido4">
-        <span>LA MOTIVACIÓN ES LO QUE TE INICIA. EL HÁBITO ES LO QUE TE MANTIENE.</span>
+        <div class="tarjeta">
+          <div class="contenidotarjeta">
+            <div class="arriba">PLAN ESTÁNDAR</div>
+            <hr>
+            <div class="precio"><span>$70.000 COP</span></div>
+            <div class="lista">
+              <ul>
+                <li>aa</li>
+                <li>aaa</li>
+                <li>aaa</li>
+                <li>aaa</li>
+              </ul>
+            </div>
+            <div class="botontarjeta"><button type="button" class="botontarjetaestilo">Comprar ya</button></div>
+        </div>
       </div>
+      <div class="tarjeta" id="tarjeta2">
+        <div class="contenidotarjeta">
+          <div class="arriba">PLAN PREMIUM</div>
+          <hr>
+          <div class="precio"><span>$100.000 COP</span></div>
+          <div class="lista">
+            <ul>
+              <li>aa</li>
+              <li>aaa</li>
+              <li>aaa</li>
+              <li>aaa</li>
+            </ul>
+          </div>
+          <div class="botontarjeta"><button type="button" class="botontarjetaestilo">Comprar ya</button></div>
+      </div>
+    </div>
+    </div>
+    </div>
     </section>
 
     <section class="section5">
@@ -150,28 +198,60 @@
 
     <section class="section2">
       <div class="contenido2">
-        <span>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</span>
+        <div class="entrenador"><span>NUESTROS ENTRENADORES</span></div>
+        <div class="tarjetaspersona">
+          <div class="tarjetapersona" id="william">
+            <div class="contenidotarjeta2">
+              <div class="textodepersona">
+                <div class="textodepersonatitulo">ENTRENADOR</div>
+                <div class="textodepersonanombre">William Vargas</div>
+                <hr width="90%" style="color: aliceblue;">
+                <div class="redes"> 
+                  <a href="https://wa.me/3164896297"><img id="wh" src="../multimedia/sgv/whatsapp-svgrepo-com.svg" width="30" alt="WhatsApp"></a>
+                  <a href="mailto: maanuuelva10@gmail.com"><img id="Em" src="../multimedia/sgv/facebook-svgrepo-com.svg" width="30" alt="Email"></a>
+                  <a href="https://www.instagram.com/maanuelva10" target="_blank"><img src="../multimedia/sgv/instagram-svgrepo-com.svg" width="30" alt="instagram"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="tarjetapersona" id="mike">
+            <div class="contenidotarjeta2">
+              <div class="textodepersona">
+                <div class="textodepersonatitulo">ENTRENADOR DE CROSSFIT</div>
+                <div class="textodepersonanombre">Mike Andrés Perdomo</div>
+                <hr width="90%" style="color: aliceblue;">
+                <div class="redes"> 
+                  <a href="https://wa.me/3164896297"><img id="wh" src="../multimedia/sgv/whatsapp-svgrepo-com.svg" width="30" alt="WhatsApp"></a>
+                  <a href="mailto: maanuuelva10@gmail.com"><img id="Em" src="../multimedia/sgv/facebook-svgrepo-com.svg" width="30" alt="Email"></a>
+                  <a href="https://www.instagram.com/maanuelva10" target="_blank"><img src="../multimedia/sgv/instagram-svgrepo-com.svg" width="30" alt="instagram"></a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="tarjetapersona" id="lisa">
+          <div class="contenidotarjeta2">
+            <div class="textodepersona">
+              <div class="textodepersonatitulo">ENTRENADORA DE CARDIO</div>
+              <div class="textodepersonanombre">Lisa Juana Pilar</div>
+              <hr width="90%" style="color: aliceblue;">
+              <div class="redes"> 
+                <a href="https://wa.me/3164896297"><img id="wh" src="../multimedia/sgv/whatsapp-svgrepo-com.svg" width="30" alt="WhatsApp"></a>
+                <a href="mailto: maanuuelva10@gmail.com"><img id="Em" src="../multimedia/sgv/facebook-svgrepo-com.svg" width="30" alt="Email"></a>
+                <a href="https://www.instagram.com/maanuelva10" target="_blank"><img src="../multimedia/sgv/instagram-svgrepo-com.svg" width="30" alt="instagram"></a>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      </div>
+      </div>
       </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  </main>
 
     <footer>
       <div class="footer">
@@ -192,14 +272,14 @@
                         <ul>
                             <h4>INFORMACIÓN</h4>
                             <li><a href="">Sobre nosotros</a></li>
-                            <li><a href="">Valores de la empresa</a></li>
+                            <li><a href="../html/contactos.html">Contactanos</a></li>
                         </ul>
               </div>
               <div class="footerf">
                 <div class="redes">
-                  <figure><a href="https://wa.me/3164896297"><img id="wh" src="../imagenes_pa/WhatsApp.jpg" width="40" height="40" alt="WhatsApp"></a></figure>
-                  <figure><a href="mailto: maanuuelva10@gmail.com"><img id="Em" src="../imagenes_pa/logo-Gmail-1.png" width="60" height="40" alt="Email"></a></figure>
-                  <figure><a href="https://www.instagram.com/maanuelva10" target="_blank"><img src="../imagenes_pa/Instagram_logo.png" width="70" height="40" alt="instagram"></a></figure>
+                  <figure><a href="https://wa.me/3164896297" target="_blank"><img id="wh" src="../multimedia/sgv/whatsapp-svgrepo-com.svg" width="40" height="40" alt="WhatsApp"></a></figure>
+                  <figure><a href="mailto: maanuuelva10@gmail.com" target="_blank"><img id="Em" src="../multimedia/sgv/facebook-svgrepo-com.svg" width="60" height="40" alt="Email"></a></figure>
+                  <figure><a href="https://www.instagram.com/maanuelva10" target="_blank"><img src="../multimedia/sgv/instagram-svgrepo-com.svg" width="70" height="40" alt="instagram"></a></figure>
                 </div>
               </div>
         </div>
