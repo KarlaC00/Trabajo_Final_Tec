@@ -159,7 +159,7 @@
 
 .buscadores{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-left: 6%;
 }
 
@@ -173,7 +173,13 @@
   padding-right: 20px; 
   margin-bottom: 2%;
   margin-right: 40px;
-  width: 25%;
+  width: 80%;
+}
+
+.categorias{
+  padding-left: 3%;
+  display: flex;
+  flex-direction: row;
 }
 
 select{

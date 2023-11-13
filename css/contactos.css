@@ -1,5 +1,6 @@
 *{
 font-family: 'Red Hat Display', sans-serif;
+color: #fff;
 }
 
 body {
@@ -103,7 +104,49 @@ color: #3f638b;
   flex: 1;
 }
 
+.azul{
+  color: rgb(109, 160, 236);
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 6%;
+  padding-left: 5%;
+}
 
+.titulocontacto{
+  font-weight: bold;
+  font-size: 35px;
+  padding-left: 5%;
+}
+
+.contactosengrid{
+  display: grid;
+  grid-template-columns: repeat(2, 10fr);
+  padding: 2%;
+}
+
+.titulo{
+  font-size: 25px;
+}
+
+.textocontacto{
+  font-size: 20px;
+}
+
+.grid{
+  padding: 8%;
+}
+
+.redescontacto{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.izquierda{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .footer{
     background-color: rgb(0, 0, 0);
@@ -111,8 +154,6 @@ color: #3f638b;
     margin-bottom: 0px;
     width: 100%;
     font-size: 20px;
-    height: 200pxpx;
-    color: white;
 }
 
 .footerlogo{
