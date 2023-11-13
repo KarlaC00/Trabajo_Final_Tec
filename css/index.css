@@ -150,17 +150,27 @@ body {
   text-align: center; 
   max-width: 300px; /* Define un ancho para el contenedor */
   margin: 15px auto; 
-  border: #000 solid 2px;
+  border: #000 groove 2px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  padding: 2px;
 }
 
 .cuadroservicio img {
   width: 100%; 
   height: auto; 
+  border-radius: 10px;
+}
+
+.cuadroservicio:hover{
+  background-color: #8e8e8e;
+  transform: translateY(-10px);
 }
 
 .text {
   text-align: center;
   margin-top: 10px;
+  font-size: 20px;
 }
 
 .sercicio{
