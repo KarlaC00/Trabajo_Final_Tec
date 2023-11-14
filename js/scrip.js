@@ -12,4 +12,23 @@ function calcularIMC() {
     document.getElementById("resultadoIMC").textContent = imc.toFixed(2);
   }
 
+  
+  function showDiv(divId) {
+    // Oculta todos los divs
+    var divs = document.querySelectorAll('.box');
+    divs.forEach(function(div) {
+        div.style.display = 'none';
+    });
 
+    // Oculta el span con la clase parrafo1
+    var parrafo1 = document.querySelector('.parrafo1');
+    if (parrafo1) {
+        parrafo1.style.display = 'none';
+    }
+
+    // Muestra el div seleccionado
+    var selectedDiv = document.getElementById(divId);
+    if (selectedDiv) {
+        selectedDiv.style.display = 'block';
+    }
+}

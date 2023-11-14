@@ -32,12 +32,17 @@ body {
 }
   
 .menu-buttons button {
-    background-color: rgb(42, 99, 185);
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin-left: 10px;
-    cursor: pointer;
+  background-color: rgb(42, 99, 185);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
+
+.menu-buttons button:hover {
+background-color: #114078;
 }
   
 .content {
@@ -54,7 +59,7 @@ body {
 }
   
 .parrafo {
-  padding: 65px;
+  padding: 6%;
   color: #fff;
   text-align: justify;
 }
@@ -163,6 +168,8 @@ color: #3f638b;
 
 #titulosus{
   font-size: 27px;
+  color: #114078;
+  font-weight: bold;
 }
 
 .formulario{
@@ -202,6 +209,7 @@ input[type="text"] {
   background-color: #071f3c;
   color: #fff;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .botonformulario:hover{
@@ -211,6 +219,10 @@ input[type="text"] {
 
 .checkbox{
   font-size: 25px;
+}
+
+iframe{
+  border-radius: 20px;
 }
 
 
