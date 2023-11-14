@@ -38,6 +38,11 @@ body {
     padding: 10px 20px;
     margin-left: 10px;
     cursor: pointer;
+    transition: ease-out 0.3s;
+}
+
+.menu-buttons button:hover {
+  background-color: #114078;
 }
   
 .content {
