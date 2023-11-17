@@ -40,6 +40,7 @@ body {
   margin-left: 10px;
   cursor: pointer;
   transition: ease-out 0.3s;
+  border-radius: 4px;
 }
 
 .menu-buttons button:hover {
@@ -112,12 +113,21 @@ a{
   text-align: center; 
   width: 250px; 
   margin: 4px; 
-  border: #000 solid 2px;
+  border:  groove 1px rgb(152, 150, 150);
   transition: background-color 0.5s;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .cuadroservicio:hover {
   background-color: #6fa5e3;
+  transform: translateY(-10px);
+}
+
+.cuadroservicio img{
+  border-radius: 5px;
+  width: 250px;
+  height: 300px;
 }
 
 .sercicio {

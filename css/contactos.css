@@ -1,49 +1,50 @@
 *{
-font-family: 'Red Hat Display', sans-serif;
-}
-
-body {
-    margin: 0;
-    height: 100%;
+  font-family: 'Red Hat Display', sans-serif;
   }
   
-  .menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #000;
+  body {
+      margin: 0;
+      height: 100%;
+    }
+    
+    .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #000;
+      color: #fff;
+      padding: 1% 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 999
+    }
+    
+    .logo {
+      margin-left: 2%;
+      font-size: 30px;
+    }
+    
+  .menu-buttons {
+      display: flex;
+      margin-right: 1%;
+  }
+    
+  .menu-buttons button {
+    background-color: rgb(42, 99, 185);
     color: #fff;
-    padding: 1% 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 999
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    border-radius: 4px;
   }
   
-  .logo {
-    margin-left: 2%;
-    font-size: 30px;
+  .menu-buttons button:hover {
+  background-color: #114078;
   }
-  
-.menu-buttons {
-    display: flex;
-    margin-right: 1%;
-}
-  
-.menu-buttons button {
-  background-color: rgb(42, 99, 185);
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  margin-left: 10px;
-  cursor: pointer;
-  transition: ease-out 0.3s;
-}
-
-.menu-buttons button:hover {
-background-color: #114078;
-}
   
 .content {
     background-image: url('../multimedia/img/portadacontacto.jpg');
@@ -129,7 +130,7 @@ color: #3f638b;
 }
 
 .titulo{
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .textocontacto{
