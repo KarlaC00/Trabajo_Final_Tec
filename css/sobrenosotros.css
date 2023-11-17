@@ -39,11 +39,12 @@
     margin-left: 10px;
     cursor: pointer;
     transition: ease-out 0.3s;
-}
-
-.menu-buttons button:hover {
+    border-radius: 4px;
+  }
+  
+  .menu-buttons button:hover {
   background-color: #114078;
-}
+  }
   
   .content {
     background-image: url('../multimedia/img/portadasobrenosotros.jpg');
@@ -216,6 +217,11 @@
   transition: ease-out 0.3s;
   cursor: pointer;
   font-weight: bold;
+}
+
+.botonsec3:hover{
+  background-color: #3f638b;
+  color: #fff;
 }
 
 .botonsec3:focus{

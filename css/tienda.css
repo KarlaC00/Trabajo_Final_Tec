@@ -32,18 +32,14 @@
   }
     
   .menu-buttons button {
-    background-color: rgb(42, 99, 185);
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin-left: 10px;
-    cursor: pointer;
-    transition: ease-out 0.3s;
-}
-
-.menu-buttons button:hover {
-  background-color: #114078;
-}
+      background-color: rgb(42, 99, 185);
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin-left: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+  }
   
   .content {
     background-image: url('../multimedia/img/portadatienda.jpg');
@@ -57,7 +53,7 @@
     flex-direction: column; 
     font-size: 500%;
 }
-  
+
 .parrafo {
     padding: 2%;
     color: #fff;
@@ -105,12 +101,17 @@
 
 
 
-
+.tarjetas{
+  max-width: 2000%;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 10px;
+}
 
 .lista {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); 
-  gap: 20px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .textotitulo{
@@ -122,7 +123,7 @@
 }
 
 .product {
-  border: 6px solid rgb(83, 132, 204);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -131,17 +132,23 @@
   margin: 25px;
   margin-bottom: 8%;
   padding-bottom: 1px;
-  background-color: #031226;
+  background-color: #ffffff;
+  transition: all 300ms ease-in-out;
 }
 
 .product:hover{
   scale: 1.05;
+  background-color: #eef0f2;
+
 }
 
+/*se define tamaño de producto*/
 .product img {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  width: 100%;
+  width: 190px;
+  height: 220px;
+  
 }
 
 .imgcarta{
@@ -152,13 +159,49 @@
 
 .contenidocarta {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: center;
-  font-size: 25px;
+  font-size: 15px;
   flex: 1;
-  color: #ffffff;
+  color: #000000;
   font-weight: bold;
+  
+}
+
+.contenidocarta p {
+  margin-top: -40px;
+}
+
+.contenidocarta button{
+   border-radius: 10px;
+   border-color: #8f383847;
+   padding: 7px;
+   margin-bottom: 7px;
+}
+
+
+.comprab{
+  color: #000000;
+  width: 100px;
+  border-top: 2px solid #e1141430; 
+  border-bottom: 2px solid #e1141430; 
+  border-left: none; 
+  border-right: none; 
+  padding: 4px 9px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 0 rgba(156, 49, 49, 0.235);
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  text-decoration: none;
+}
+
+.comprab:hover {
+  box-shadow: inset 400px 0 0 0 white;
+  color: #3f638b;
 }
 
 
